@@ -2,3 +2,5 @@
 
 &#x20;'This repository contains lab notebooks and exercises for the Introduction to AI course.'
 
+\## Lab 01
+
