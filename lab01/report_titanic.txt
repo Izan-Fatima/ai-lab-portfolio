@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "/home/claude/lab01/inspect.py", line 11, in <module>
+    import pandas as pd
+  File "/usr/local/lib/python3.12/dist-packages/pandas/__init__.py", line 11, in <module>
+    __import__(_dependency)
+  File "/usr/local/lib/python3.12/dist-packages/numpy/__init__.py", line 112, in <module>
+    from numpy.__config__ import show_config
+  File "/usr/local/lib/python3.12/dist-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/usr/local/lib/python3.12/dist-packages/numpy/_core/__init__.py", line 24, in <module>
+    from . import multiarray
+  File "/usr/local/lib/python3.12/dist-packages/numpy/_core/multiarray.py", line 115, in <module>
+    @array_function_from_c_func_and_dispatcher(_multiarray_umath.empty_like)
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/numpy/_core/overrides.py", line 185, in decorator
+    return array_function_dispatch(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/numpy/_core/overrides.py", line 161, in decorator
+    doc = inspect.cleandoc(dispatcher.__doc__)
+          ^^^^^^^^^^^^^^^^
+AttributeError: module 'inspect' has no attribute 'cleandoc'

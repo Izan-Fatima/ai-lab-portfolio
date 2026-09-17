@@ -1,0 +1,28 @@
+======================================================================
+SOURCE : https://raw.githubusercontent.com/mwaskom/seaborn-data/master/tips.csv
+SHAPE  : 244 rows x 7 columns
+======================================================================
+
+--- DATA TYPES ---
+total_bill    float64
+tip           float64
+sex               str
+smoker            str
+day               str
+time              str
+size            int64
+dtype: object
+
+--- MISSING VALUES ---
+None.
+
+--- NUMERIC SUMMARY ---
+       total_bill         tip        size
+count  244.000000  244.000000  244.000000
+mean    19.785943    2.998279    2.569672
+std      8.902412    1.383638    0.951100
+min      3.070000    1.000000    1.000000
+25%     13.347500    2.000000    2.000000
+50%     17.795000    2.900000    2.000000
+75%     24.127500    3.562500    3.000000
+max     50.810000   10.000000    6.000000
